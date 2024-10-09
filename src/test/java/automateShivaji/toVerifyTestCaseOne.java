@@ -43,7 +43,7 @@ public class toVerifyTestCaseOne
 		{
 			System.out.println("User is successfully logged in, Thank you");
 		}
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//div/div/div[3])[3]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//aside[@id='sidebar']/div/div/a/following-sibling::button")).click();
