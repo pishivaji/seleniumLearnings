@@ -47,7 +47,9 @@ public class toVerifyTestCaseTwo {
 		{
 			System.out.println("User is successfully logged in, Thank you");
 		}
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
+		
+		driver.close();
 
 	}
 
